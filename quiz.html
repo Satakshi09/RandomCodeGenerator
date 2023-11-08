@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Quiz</h1>
+        <div class="quiz" id="quiz">
+            <div class="question" id="question">Question goes here.</div>
+            <ul class="choices" id="choices">
+                <li class="choice" data-answer="true">Choice 1</li>
+                <li class="choice" data-answer="false">Choice 2</li>
+                <li class="choice" data-answer="false">Choice 3</li>
+                <li class="choice" data-answer="false">Choice 4</li>
+            </ul>
+            <div class="score">Score: <span id="score">0</span></div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
